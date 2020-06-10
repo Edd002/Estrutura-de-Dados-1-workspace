@@ -1,0 +1,14 @@
+16:35:57 **** Rebuild of configuration Debug for project Projeto ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Projeto.o" "..\\src\\Projeto.c" 
+gcc -o Projeto.exe "src\\Projeto.o" 
+16:36:13 **** Rebuild of configuration Debug for project Teste ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Teste.o" "..\\src\\Teste.c" 
+gcc -o Teste.exe "src\\Teste.o" 
+21:15:52 **** Rebuild of configuration Debug for project EstruturaDeDados1Autoinstrucional ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Library.o" "..\\src\\Library.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\EstruturaDeDados1Autoinstrucional.o" "..\\src\\EstruturaDeDados1Autoinstrucional.c" 
+gcc -o EstruturaDeDados1Autoinstrucional.exe "src\\EstruturaDeDados1Autoinstrucional.o" "src\\Library.o" 
+Info: Nothing to build for EstruturaDeDados1Autoinstrucional
